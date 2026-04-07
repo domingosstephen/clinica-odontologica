@@ -8,11 +8,11 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: '/images/gallery-1.webp', alt: 'Equipe da clinica odontologica', caption: 'Nossa Equipe' },
-  { src: '/images/gallery-2.webp', alt: 'Consultorio equipado com tecnologia moderna', caption: 'Tecnologia de Ponta' },
-  { src: '/images/gallery-3.webp', alt: 'Sala de espera elegante e confortavel', caption: 'Conforto e Elegancia' },
-  { src: '/images/gallery-4.webp', alt: 'Consultorio com ambiente acolhedor', caption: 'Ambiente Acolhedor' },
-  { src: '/images/gallery-5.webp', alt: 'Fachada da clinica odontologica', caption: 'Nossa Clinica' },
+  { src: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80', alt: 'Cuidado dental profissional', caption: 'Cuidado Profissional' },
+  { src: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80', alt: 'Consultorio moderno', caption: 'Consultorio Moderno' },
+  { src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80', alt: 'Tratamento com tecnologia', caption: 'Alta Tecnologia' },
+  { src: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80', alt: 'Sorriso saudavel', caption: 'Sorrisos Saudaveis' },
+  { src: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80', alt: 'Recepcao acolhedora', caption: 'Ambiente Natural' },
 ];
 
 export default function Gallery() {
